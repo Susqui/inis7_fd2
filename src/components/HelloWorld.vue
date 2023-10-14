@@ -7,7 +7,7 @@ const props = defineProps({
   }
 })
 const text = ref(props.msg) //Start
-const changeText = () =>  text.value = 'Dupa'
+const changeText = () => { text.value = 'Dupa'}
 </script>
 
 <template>
